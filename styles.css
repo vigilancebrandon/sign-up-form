@@ -35,7 +35,7 @@ body {
 
   background-image: url(img/aldebaran-s-qtRF_RxCAo0-unsplash.jpg);
   background-size: cover;
-  background-position: -150px;
+  background-position: -200px;
 
   color: var(--sidebar-font-color);
 }
@@ -48,7 +48,7 @@ body {
   justify-content: center;
 
   padding: var(--standard-padding);
-  margin-top: 70%;
+  margin-top: 30vh;
   margin-bottom: auto;
 
   width: 100%;
@@ -63,7 +63,7 @@ body {
 }
 
 .logo-container p {
-  
+
 }
 
 form {
@@ -86,5 +86,8 @@ form .container {
   padding: 0.5em calc(2% + 1em);
 }
 
+form button {
+  margin: 1.5em 0em;
+}
 
 
