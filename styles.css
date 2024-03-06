@@ -3,16 +3,22 @@
   --standard-padding: 1em;
 
   --sidebar-font-color: #eee;
+
+  --standard-font-size: 1.3em;
+  --heading-font-size: 1.5em;
 }
 
 body {
   display: flex;
   height: 100vh;
   margin: 0;
+
+  font-family: 'Raleway', 'Earthbound', 'CriativaSansRegular', Verdana, Geneva, Tahoma, sans-serif;
+  font-size: var(--standard-font-size);
 }
 
 .heading {
-  font-size: large;
+  font-size: var(--heading-font-size);
 }
 
 .container {
@@ -48,6 +54,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  /* gap: var(--standard-padding); */
 
   padding: var(--standard-padding);
   margin-top: 30vh;
@@ -56,12 +63,16 @@ body {
   width: 100%;
 
   background-color: rgb(20 20 20 / 0.4);
+
+  font-family: 'Raleway', 'Earthbound', 'CriativaSansRegular', Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: calc(1.5 * var(--heading-font-size));
 }
 
 #logo {
   height: auto;
-  width: 40%;
-  stroke: var(--sidebar-font-color);
+  /* width: 40%; */
+  /* stroke: var(--sidebar-font-color); */
 }
 
 .image-credit {
