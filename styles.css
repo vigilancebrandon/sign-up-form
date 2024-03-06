@@ -8,6 +8,14 @@ body {
   height: 100vh;
 }
 
+.heading {
+  font-size: large;
+}
+
+.container {
+  padding: none;
+}
+
 #main-page {
   display: flex;
   flex-direction: column;
@@ -30,7 +38,7 @@ body {
   background-position: -150px;
 }
 
-#logo-container {
+.logo-container  {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -39,7 +47,7 @@ body {
 }
 
 #logo {
-  
+
 }
 
 #heading {
@@ -49,15 +57,13 @@ body {
 form {
   display: flex;
   flex-flow: row wrap;
-
-
 }
 
-form h1 {
+form p {
   width: 100%
 }
 
-.input-container {
+form .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
