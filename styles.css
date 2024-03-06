@@ -1,6 +1,8 @@
 :root {
   --main-page-width: 60%;
   --standard-padding: 1em;
+
+  --sidebar-font-color: #eee;
 }
 
 body {
@@ -31,27 +33,37 @@ body {
   flex-direction: column;
   width: calc(100% - var(--main-page-width, 60%));
 
-  /* padding: var(--standard-padding); */
-
   background-image: url(img/aldebaran-s-qtRF_RxCAo0-unsplash.jpg);
   background-size: cover;
   background-position: -150px;
+
+  color: var(--sidebar-font-color);
 }
 
 .logo-container  {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  padding: var(--standard-padding);
+  margin-top: 70%;
+  margin-bottom: auto;
+
   width: 100%;
 
   background-color: rgb(20 20 20 / 0.4);
 }
 
 #logo {
-
+  height: auto;
+  width: 40%;
+  stroke: var(--sidebar-font-color);
 }
 
-#heading {
-
+.logo-container p {
+  
 }
 
 form {
@@ -71,7 +83,7 @@ form .container {
 
   width: 50%;
 
-  padding: 1em 2em;
+  padding: 0.5em calc(2% + 1em);
 }
 
 
