@@ -72,6 +72,8 @@ form {
   display: flex;
   flex-flow: row wrap;
 
+  row-gap: var(--standard-padding);
+
   padding: var(--standard-padding);
 }
 
@@ -90,10 +92,6 @@ form .container {
   /* padding: 0.5em calc(2% + 1em); */
 }
 
-/* form .container::after {
-  margin-bottom: var(--standard-padding);
-} */
-
 form .container:nth-last-child(-n + 4) {
   /* border-bottom: grad; */
   /* box-shadow: 0px -4px 4px -2px #aaa inset; */
@@ -104,6 +102,6 @@ form button {
 }
 
 input {
-  width: 60%;
+  width: 80%;
   margin-right: auto;
 }
