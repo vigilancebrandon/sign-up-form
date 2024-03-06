@@ -71,6 +71,8 @@ body {
 form {
   display: flex;
   flex-flow: row wrap;
+
+  padding: var(--standard-padding);
 }
 
 form p {
@@ -85,8 +87,12 @@ form .container {
 
   width: 50%;
 
-  padding: 0.5em calc(2% + 1em);
+  /* padding: 0.5em calc(2% + 1em); */
 }
+
+/* form .container::after {
+  margin-bottom: var(--standard-padding);
+} */
 
 form .container:nth-last-child(-n + 4) {
   /* border-bottom: grad; */
@@ -95,4 +101,9 @@ form .container:nth-last-child(-n + 4) {
 
 form button {
   margin: 1.5em 0em;
+}
+
+input {
+  width: 60%;
+  margin-right: auto;
 }
