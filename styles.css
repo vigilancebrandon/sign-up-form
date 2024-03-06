@@ -32,6 +32,7 @@ body {
 #sidebar {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: calc(100% - var(--main-page-width, 60%));
 
   background-image: url(img/aldebaran-s-qtRF_RxCAo0-unsplash.jpg);
@@ -63,8 +64,8 @@ body {
   stroke: var(--sidebar-font-color);
 }
 
-.logo-container p {
-
+.image-credit {
+  padding: var(--standard-padding);
 }
 
 form {
