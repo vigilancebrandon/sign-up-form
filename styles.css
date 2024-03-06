@@ -40,6 +40,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: calc(100% - var(--main-page-width, 60%));
+  min-width: min-content;
 
   background-image: url(img/aldebaran-s-qtRF_RxCAo0-unsplash.jpg);
   background-size: cover;
@@ -53,24 +54,26 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  /* gap: var(--standard-padding); */
+  justify-content: space-evenly;
+  gap: var(--standard-padding);
 
-  padding: var(--standard-padding);
-  margin-top: 30vh;
+  padding: 0 var(--standard-padding);
+  margin-top: 25vh;
   margin-bottom: auto;
 
   width: 100%;
+  height: min-content;
 
   background-color: rgb(20 20 20 / 0.4);
 
   font-family: 'Earthbound', 'CriativaSansRegular', Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  font-size: calc(1.5 * var(--heading-font-size));
+  font-size: calc(1.2 * var(--heading-font-size));
 }
 
 #logo {
-  
+  min-width: 2em;
+  max-width: 300px;
 }
 
 .image-credit {
