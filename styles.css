@@ -4,7 +4,7 @@
 
   --sidebar-font-color: #eee;
 
-  --standard-font-size: 1.3em;
+  --standard-font-size: 1em;
   --heading-font-size: 1.5em;
 
   --main-font-family: 'CriativaSansRegular', Verdana, Geneva, Tahoma, sans-serif;
@@ -89,7 +89,7 @@ form {
   display: flex;
   flex-flow: row wrap;
 
-  row-gap: var(--standard-padding);
+  row-gap: calc(1.2 * var(--standard-padding));
 }
 
 form p {
