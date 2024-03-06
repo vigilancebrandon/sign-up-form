@@ -1,6 +1,16 @@
-p {
-  color:brown;
-  font-family: 'CriativaSansRegular';
-  font-weight: bold;
-  font-style: italic;
+body {
+  display: flex;
+  height: ;
+}
+
+#main-page {
+  display: flex;
+  flex-direction: column;
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+
+  background-image: url(img/aldebaran-s-qtRF_RxCAo0-unsplash.jpg)
 }
