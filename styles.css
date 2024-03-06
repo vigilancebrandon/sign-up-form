@@ -12,7 +12,7 @@ body {
   display: flex;
   height: 100vh;
   margin: 0px;
-  
+
   font-family: 'Raleway', 'Earthbound', 'CriativaSansRegular', Verdana, Geneva, Tahoma, sans-serif;
   font-size: var(--standard-font-size);
 }
@@ -86,8 +86,6 @@ form {
   flex-flow: row wrap;
 
   row-gap: var(--standard-padding);
-
-  /* padding: var(--standard-padding); */
 }
 
 form p {
@@ -103,9 +101,6 @@ form .container {
   width: 50%;
 
   /* box-shadow: -8px 6px 4px -2px #aaa; */
-
-
-  /* padding: 0.5em calc(2% + 1em); */
 }
 
 form button {
@@ -117,11 +112,13 @@ form button {
 }
 
 label {
-  /* font-weight: 300; */
+  font-style: italic;
+  font-size: var(--standard-font-size);
 }
 
 input {
   max-width: 80%;
+  padding: 0.2em;
 
   font-family: 'Raleway', 'Earthbound', 'CriativaSansRegular', Verdana, Geneva, Tahoma, sans-serif;
   font-size: calc(0.8 * var(--standard-font-size));
