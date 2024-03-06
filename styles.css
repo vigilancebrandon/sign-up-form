@@ -1,6 +1,6 @@
 :root {
   --main-page-width: 60%;
-  --standard-padding: 1em;
+  --standard-padding: 1.2em;
 
   --sidebar-font-color: #eee;
 
@@ -11,14 +11,15 @@
 body {
   display: flex;
   height: 100vh;
-  margin: 0;
-
+  margin: 0px;
+  
   font-family: 'Raleway', 'Earthbound', 'CriativaSansRegular', Verdana, Geneva, Tahoma, sans-serif;
   font-size: var(--standard-font-size);
 }
 
 .heading {
   font-size: var(--heading-font-size);
+  font-weight: bold;
 }
 
 .container {
@@ -32,7 +33,7 @@ body {
 
   justify-content: center;
 
-  padding: var(--standard-padding);
+  padding: 0 var(--standard-padding);
 }
 
 #sidebar {
@@ -86,7 +87,7 @@ form {
 
   row-gap: var(--standard-padding);
 
-  padding: var(--standard-padding);
+  /* padding: var(--standard-padding); */
 }
 
 form p {
@@ -101,16 +102,18 @@ form .container {
 
   width: 50%;
 
-  /* padding: 0.5em calc(2% + 1em); */
-}
+  /* box-shadow: -8px 6px 4px -2px #aaa; */
 
-form .container:nth-last-child(-n + 4) {
-  /* border-bottom: grad; */
-  /* box-shadow: 0px -4px 4px -2px #aaa inset; */
+
+  /* padding: 0.5em calc(2% + 1em); */
 }
 
 form button {
   margin: 1.5em 0em;
+
+  font-family: 'Raleway', 'Earthbound', 'CriativaSansRegular', Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: var(--standard-font-size);
 }
 
 label {
@@ -118,8 +121,7 @@ label {
 }
 
 input {
-  width: 80%;
-  margin-right: auto;
+  max-width: 80%;
 
   font-family: 'Raleway', 'Earthbound', 'CriativaSansRegular', Verdana, Geneva, Tahoma, sans-serif;
   font-size: calc(0.8 * var(--standard-font-size));
