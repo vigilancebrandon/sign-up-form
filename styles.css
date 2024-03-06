@@ -64,15 +64,13 @@ body {
 
   background-color: rgb(20 20 20 / 0.4);
 
-  font-family: 'Raleway', 'Earthbound', 'CriativaSansRegular', Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Earthbound', 'CriativaSansRegular', Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   font-size: calc(1.5 * var(--heading-font-size));
 }
 
 #logo {
-  height: auto;
-  /* width: 40%; */
-  /* stroke: var(--sidebar-font-color); */
+  
 }
 
 .image-credit {
@@ -112,7 +110,14 @@ form button {
   margin: 1.5em 0em;
 }
 
+label {
+  /* font-weight: 300; */
+}
+
 input {
   width: 80%;
   margin-right: auto;
+
+  font-family: 'Raleway', 'Earthbound', 'CriativaSansRegular', Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(0.8 * var(--standard-font-size));
 }
