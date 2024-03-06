@@ -123,12 +123,12 @@ form button {
   font-family: var(--main-font-family);
   font-weight: bold;
   font-size: var(--standard-font-size);
-  color: var(--border-color-grey);
+  color: var(--sidebar-font-color);
 
   border: 2px solid var(--border-color-grey);
   border-radius: 2px;
 
-  background-color: linear-gradient(#553344, #230121);
+  background-image: linear-gradient(#685357, #230121);
 }
 
 label {
