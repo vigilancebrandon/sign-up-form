@@ -122,4 +122,7 @@ input {
 
   font-family: 'Raleway', 'Earthbound', 'CriativaSansRegular', Verdana, Geneva, Tahoma, sans-serif;
   font-size: calc(0.8 * var(--standard-font-size));
+
+  border: none;
+  border-bottom: 1px solid #989898;
 }
