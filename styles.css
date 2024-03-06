@@ -21,6 +21,8 @@ body {
 form {
   display: flex;
   flex-flow: row wrap;
+
+  padding: 1em;
 }
 
 form h1 {
@@ -29,8 +31,12 @@ form h1 {
 
 .input-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  
+  box-sizing: border-box;
+
   width: 50%;
+
+  padding: 1em 2em;
 }
 
