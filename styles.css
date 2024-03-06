@@ -109,6 +109,7 @@ form .container {
 
 form button {
   margin: 1.5em 0em;
+  padding: 0.5em;
 
   font-family: var(--main-font-family);
   font-weight: bold;
