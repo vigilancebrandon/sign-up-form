@@ -3,8 +3,6 @@
   --standard-padding: 1em;
 }
 
-html
-
 body {
   display: flex;
   height: 100vh;
@@ -14,26 +12,45 @@ body {
   display: flex;
   flex-direction: column;
   width: var(--main-page-width, 60%);
+
+  justify-content: center;
+
+  padding: var(--standard-padding);
 }
 
 #sidebar {
   display: flex;
   flex-direction: column;
   width: calc(100% - var(--main-page-width, 60%));
-  padding: var(--standard-padding);
 
-  background-image: url(img/aldebaran-s-qtRF_RxCAo0-unsplash.jpg)
+  /* padding: var(--standard-padding); */
+
+  background-image: url(img/aldebaran-s-qtRF_RxCAo0-unsplash.jpg);
+  background-size: cover;
+  background-position: -150px;
+}
+
+#logo-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  background-color: rgb(20 20 20 / 0.4);
+}
+
+#logo {
+  
 }
 
 #heading {
-  padding: var(--standard-padding);
+
 }
 
 form {
   display: flex;
   flex-flow: row wrap;
 
-  padding: var(--standard-padding);
+
 }
 
 form h1 {
@@ -50,4 +67,6 @@ form h1 {
 
   padding: 1em 2em;
 }
+
+
 
