@@ -10,7 +10,7 @@
   --main-font-family: 'CriativaSansRegular', Verdana, Geneva, Tahoma, sans-serif;
 
   --border-color-grey: #383838;
-  --border-color-focus: #239dee;
+  --outline-color-focus: #239dee;
   --border-color-invalid: #ff6b04;
   --border-color-valid: #009f22;
 }
@@ -164,10 +164,12 @@ input {
   background-color: var(--sidebar-font-color);
 }
 
-input:focus {
-  border: 2px solid var(--border-color-focus);
-
-  /* border-color: var(--border-color-focus); */
+input:focus,
+input:valid:focus,
+input:invalid:focus {
+  border: none;
+  outline: 2px solid var(--outline-color-focus);
+  /* border-color: var(--outline-color-focus); */
   box-shadow: 3px 3px 3px rgb(105 84 88 / 0.2)
 }
 
@@ -178,7 +180,7 @@ input:invalid {
 
 }
 
-input:required:valid {
+input:valid {
   border-bottom: 2px solid var(--border-color-valid);
   /* border-color: var(--border-color-valid) */
 }
