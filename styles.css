@@ -206,3 +206,8 @@ input:valid {
   border-bottom: 2px solid var(--border-color-valid);
   /* border-color: var(--border-color-valid) */
 }
+
+button:hover,
+a:hover {
+  cursor: pointer;
+}
