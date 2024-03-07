@@ -125,6 +125,7 @@ form .container {
 
   gap: 0.5em;
 
+  height: fit-content;
   width: 50%;
 
   /* box-shadow: -8px 6px 4px -2px #aaa; */
@@ -180,6 +181,10 @@ input {
   border-radius: 0px;
 
   background-color: rgba(var(--sidebar-font-color));
+}
+
+#password-error {
+  font-size: calc(0.7 * var(--standard-font-size));
 }
 
 input::placeholder {
