@@ -14,3 +14,6 @@ confPassword.addEventListener("keyup", () => {
     passwordError.style.visibility = "hidden";
   }
 });
+
+//still want to make this work with validation as well...
+//currently only shows or hides the "no match" message
