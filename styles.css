@@ -76,7 +76,7 @@ body {
 
   background-color: rgb(20 20 20 / 0.4);
 
-  font-family: 'Earthbound', 'Raleway', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Raleway', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: bold;
   font-size: calc(2 * var(--heading-font-size));
 }
