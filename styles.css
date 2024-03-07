@@ -150,18 +150,26 @@ label {
 }
 
 input {
+  position: relative;
   box-sizing: border-box;
   max-width: 80%;
-  padding: 0.2em;
+  /* height: 1.3em; */
+  padding: 0em 0.2em;
+  padding-bottom: 0em;
 
   font-family: var(--main-font-family);
-  font-size: calc( var(--standard-font-size));
+  font-size: var(--standard-font-size);
+  line-height: 1.5em;
 
   border: none;
   border-bottom: 1px solid var(--border-color-grey);
   border-radius: 0px;
 
   background-color: var(--sidebar-font-color);
+}
+
+input::placeholder {
+  overflow: visible;
 }
 
 input:focus,
