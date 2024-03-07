@@ -147,7 +147,7 @@ input {
 
   border: none;
   border-bottom: 1px solid var(--border-color-grey);
-  border-radius: 2px;
+  border-radius: 1px;
 
   background-color: var(--sidebar-font-color);
 }
@@ -156,7 +156,7 @@ input:focus {
   border: 2px solid var(--border-color-focus);
 
   /* border-color: var(--border-color-focus); */
-  box-shadow: 3px 3px 3px #685357;
+  box-shadow: 3px 3px 3px rgb(105 84 88 / 0.2)
 }
 
 input:invalid {
