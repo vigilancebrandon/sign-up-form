@@ -2,7 +2,7 @@
   --main-page-width: 60%;
   --standard-padding: 1.2em;
 
-  --sidebar-font-color: #eee;
+  --sidebar-font-color: 237, 237, 237;
 
   --standard-font-size: 1em;
   --heading-font-size: 1.5em;
@@ -23,7 +23,7 @@ body {
   font-family: var(--main-font-family);
   font-size: var(--standard-font-size);
 
-  background-color: var(--sidebar-font-color);
+  background-color: rgba(var(--sidebar-font-color));
 }
 
 .heading {
@@ -58,7 +58,7 @@ body {
   background-size: cover;
   background-position: -200px;
 
-  color: var(--sidebar-font-color);
+  color: rgba(var(--sidebar-font-color));
 }
 
 .logo-container  {
@@ -89,9 +89,11 @@ body {
   max-width: 300px;
 }
 
-.img-credit {
-  margin-bottom: 0.3em;
+.credit {
+  /* margin-bottom: 0.3em; */
   font-size: calc(0.7 * var(--standard-font-size));
+  text-align: center;
+  color: rgba(var(--sidebar-font-color), 0.5)
 }
 
 a {
@@ -136,7 +138,7 @@ form button {
   font-family: var(--main-font-family);
   font-weight: bold;
   font-size: var(--standard-font-size);
-  color: var(--sidebar-font-color);
+  color: rgba(var(--sidebar-font-color));
   text-shadow: 2px 2px 6px var(--border-color-grey);
 
   border: 2px solid var(--border-color-grey);
@@ -177,7 +179,7 @@ input {
   border-bottom: 1px solid var(--border-color-grey);
   border-radius: 0px;
 
-  background-color: var(--sidebar-font-color);
+  background-color: rgba(var(--sidebar-font-color));
 }
 
 input::placeholder {
