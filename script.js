@@ -1,5 +1,16 @@
-// while confirm password input has text in it AND the text does not equal the password text
-// make message visible
-// else make message invisible
+const form = document.querySelector('form');
+const password = document.querySelector("#password");
+const confPassword = document.querySelector("#confirm-password");
+const passwordError = document.querySelector("#password-error");
 
 
+passwordError.style.visibility = "hidden";
+
+confPassword.addEventListener("keyup", () => {
+  console.log(password.value, confPassword.value);
+  if (password.value !== confPassword.value) {
+    passwordError.style.visibility = "visible";
+  } else {
+    passwordError.style.visibility = "hidden";
+  }
+});

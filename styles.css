@@ -202,14 +202,10 @@ input:invalid:focus {
 
 input:invalid {
   border-bottom: 2px solid var(--border-color-invalid);
-
-  /* border-color: var(--border-color-invalid); */
-
 }
 
 input:valid {
   border-bottom: 2px solid var(--border-color-valid);
-  /* border-color: var(--border-color-valid) */
 }
 
 button:hover,
