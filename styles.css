@@ -86,10 +86,19 @@ body {
   max-width: 300px;
 }
 
-.image-credit {
-  padding: var(--standard-padding);
-  /* font-size: calc(0.2 * var(--standard-font-size)); */
-  /* font-size: 500px; */
+.img-credit {
+  margin-bottom: 0.3em;
+  font-size: calc(0.7 * var(--standard-font-size));
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--outline-color-focus);
+  text-decoration: underline wavy;
 }
 
 form {
