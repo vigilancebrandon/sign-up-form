@@ -90,7 +90,6 @@ body {
 }
 
 .credit {
-  /* margin-bottom: 0.3em; */
   font-size: calc(0.7 * var(--standard-font-size));
   text-align: center;
   color: rgba(var(--sidebar-font-color), 0.5)
@@ -127,8 +126,6 @@ form .container {
 
   height: fit-content;
   width: 50%;
-
-  /* box-shadow: -8px 6px 4px -2px #aaa; */
 }
 
 form button {
@@ -145,8 +142,6 @@ form button {
   border: 2px solid var(--border-color-grey);
   border-radius: 8px;
 
-  /* background-color: rgb(63 43 140 / var(--grad-opacity)); */
-
   background-image: linear-gradient(
     42deg,
     rgba(6, 21, 158, var(--grad-opacity)),
@@ -159,7 +154,6 @@ form button {
 }
 
 label {
-  /* font-style: italic; */
   font-size: var(--standard-font-size);
   font-weight: lighter;
 }
@@ -168,7 +162,6 @@ input {
   position: relative;
   box-sizing: border-box;
   max-width: 80%;
-  /* height: 1.3em; */
   padding: 0em 0.2em;
   padding-bottom: 0em;
 
@@ -196,7 +189,6 @@ input:valid:focus,
 input:invalid:focus {
   border: none;
   outline: 2px solid var(--outline-color-focus);
-  /* border-color: var(--outline-color-focus); */
   box-shadow: 3px 3px 3px rgb(105 84 88 / 0.2)
 }
 
