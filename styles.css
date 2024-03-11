@@ -70,7 +70,7 @@ body {
   justify-content: center;
   gap: 10px;
 
-  padding: 0 var(--standard-padding);
+  padding: 0 calc(0.3 * var(--standard-padding));
   margin-top: 25vh;
   margin-bottom: auto;
 
