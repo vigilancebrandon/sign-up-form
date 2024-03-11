@@ -7,11 +7,14 @@ const passwordError = document.querySelector("#password-error");
 passwordError.style.visibility = "hidden";
 
 confPassword.addEventListener("keyup", () => {
-  console.log(password.value, confPassword.value);
   if (password.value !== confPassword.value) {
     passwordError.style.visibility = "visible";
+    password.setCustomValidity("invalid");
+    confPassword.setCustomValidity("invalid");
   } else {
     passwordError.style.visibility = "hidden";
+    password.setCustomValidity("");
+    confPassword.setCustomValidity("");
   }
 });
 
